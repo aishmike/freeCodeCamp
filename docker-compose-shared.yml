@@ -10,7 +10,7 @@ services:
             - shared
     mailhog:
         networks:
-            - shared
+            - sharedd
     freecodecamp:
         networks:
             - shared
