@@ -26,6 +26,7 @@ services:
             - develop
         ports:
             - "3000:3000"
+            - "4040:4040"
     db:
         image: mongo:3.6
         ports:
